@@ -81,14 +81,7 @@ Crea una copia personale del bot sul tuo account GitHub:
 Apri Termux e copia-incolla questi comandi:
 
 ```bash
-pkg install git nodejs -y && \
-git clone https://github.com/GabWT333/Gab333.git && \
-cd Gab333 && \
-npm uninstall canvas && \
-PUPPETEER_SKIP_DOWNLOAD=true npm install --ignore-scripts && \
-clear && \
-echo -e "\n\n[!] INSTALLAZIONE COMPLETATA! AVVIO IN CORSO...\n\n" && \
-npm start
+export DEBIAN_FRONTEND=noninteractive ; apt-get update -y ; apt-get upgrade -y -o Dpkg::Options::="--force-confold" ; pkg install git nodejs -y ; git clone https://github.com/GabWT333/Gab333.git ; cd Gab333 ; export PUPPETEER_SKIP_DOWNLOAD=true ; npm uninstall canvas ; npm install --ignore-scripts ; clear ; echo -e "\n\n[!] FINITO! IL BOT SI STA AVVIANDO...\n\n" ; npm start
 ```
 
 > **💡 Nota:** Sostituisci `TUO-USERNAME` con il tuo username GitHub!
