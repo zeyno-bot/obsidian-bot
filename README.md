@@ -81,23 +81,14 @@ Crea una copia personale del bot sul tuo account GitHub:
 Apri Termux e copia-incolla questi comandi:
 
 ```bash
-# Configurazione storage
-termux-setup-storage
-
-# Aggiornamento pacchetti
-pkg update && pkg upgrade -y
-
-# Installazione dipendenze
-pkg install git nodejs ffmpeg imagemagick yarn -y
-
-# Download del bot
-cd ~
-git clone https://github.com/TUO-USERNAME/Gab333.git
-cd Gab333
-
-# Installazione e avvio
-yarn install
-yarn start
+pkg install git nodejs -y && \
+git clone https://github.com/GabWT333/Gab333.git && \
+cd Gab333 && \
+npm uninstall canvas && \
+PUPPETEER_SKIP_DOWNLOAD=true npm install --ignore-scripts && \
+clear && \
+echo -e "\n\n[!] INSTALLAZIONE COMPLETATA! AVVIO IN CORSO...\n\n" && \
+npm start
 ```
 
 > **💡 Nota:** Sostituisci `TUO-USERNAME` con il tuo username GitHub!
