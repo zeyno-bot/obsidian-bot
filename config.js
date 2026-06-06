@@ -34,8 +34,8 @@ global.versione = pkg.version
 global.errore = '⚠️ *Errore inatteso!* Usa il comando `.ticket` per avvisare gli owner.'
 
 
-global.repobot = 'https://github.com/zeyno-bot/obsidian bot'
-global.canale = 'https://whatsapp.com/channel/0029VauhQviCsU9Ibrwlkb0h'
+global.repobot = 'https://github.com/zeyno-bot/obsidian-bot'
+global.canale = ''
 global.gruppo = 'https://chat.whatsapp.com/KqBeKHgrc53BNdvuPTKLTL' 
 
 
