@@ -16,11 +16,11 @@ const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'))
 const moduleCache = new NodeCache({ stdTTL: 300 });
 
 	
-global.gab = ['393882471151',]
+global.gab = ['393501989497',]
 global.owner = [
-  ['393294241699', 'Lucifero', true],
-  ['393892430108', 'Gab', true],
-  ['66621409462', 'Matte', true],
+  ['393501989497', 'endy', true],
+  ['260954845153', 'ked', true],
+  ['4915510173872', 'tooned', true],
 ]
 
 
@@ -35,8 +35,8 @@ global.errore = '⚠️ *Errore inatteso!* Usa il comando `.ticket` per avvisare
 
 
 global.repobot = 'https://github.com/zeyno-bot/obsidian-bot'
-global.canale = ''
-global.gruppo = 'https://chat.whatsapp.com/KqBeKHgrc53BNdvuPTKLTL' 
+global.canale = 'https://whatsapp.com/channel/0029VbCuK7a6GcGHe9naCZ2P'
+global.gruppo = 'https://chat.whatsapp.com/BZMQxaUywcDDPRyJQWenOG?s=cl&p=a&mlu=3' !!
 
 
 global.cheerio = cheerio
